@@ -47,11 +47,7 @@ $(function() {
 
     /* This suite features a set of tests concerning the menu. */
     describe('The menu', () => {
-        let bodyClassList = null;
-
-        beforeEach(() => {
-            bodyClassList = document.body.classList;
-        });
+        const bodyClassList = document.body.classList;
 
         /* The menu element needs to be hidden by default. This test checks for
          * the presence of the CSS class that is required to make that happen.
